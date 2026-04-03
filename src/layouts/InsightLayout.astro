@@ -7,7 +7,7 @@ export interface Props {
   author?: string;
 }
 
-const { title, description, ogImage = '/og-default.png', publishDate, author = 'Human in the Loop Talent' } = Astro.props;
+const { title, description, ogImage = '/og-default.png', publishDate, author = 'Patrick Dyer' } = Astro.props;
 const canonicalUrl = new URL(Astro.url.pathname, 'https://humaninthelooptalent.com');
 ---
 
@@ -50,9 +50,14 @@ const canonicalUrl = new URL(Astro.url.pathname, 'https://humaninthelooptalent.c
     "headline": title,
     "description": description,
     "author": {
-      "@type": "Organization",
-      "name": "Human in the Loop Talent",
-      "url": "https://humaninthelooptalent.com"
+      "@type": "Person",
+      "name": "Patrick Dyer",
+      "url": "https://www.linkedin.com/in/patdyer/",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Human in the Loop Talent",
+        "url": "https://humaninthelooptalent.com"
+      }
     },
     "publisher": {
       "@type": "Organization",

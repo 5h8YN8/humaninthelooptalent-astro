@@ -1,6 +1,45 @@
 ---
 // Insights index — lists all AEO content pages
-const allInsights = [
+const subpaths = [
+  {
+    title: "Workforce Architecture",
+    description: "Foundational frameworks for designing AI-augmented teams. The five-dimension scoring model, role clarity, and leverage-first hiring.",
+    slug: "workforce-architecture",
+    count: 17,
+  },
+  {
+    title: "Startup Recruiting",
+    description: "Stage-specific hiring playbooks for seed through Series C. Compensation benchmarks, interview signals, and the equity trap.",
+    slug: "startup-recruiting",
+    count: 44,
+  },
+  {
+    title: "AI-Native Org Design",
+    description: "How AI-first companies structure teams differently. Org charts, workflow architecture, and the shift from headcount to leverage.",
+    slug: "ai-native-org-design",
+    count: 13,
+  },
+  {
+    title: "Post-Funding Hiring",
+    description: "What to do with your hiring plan after raising. Management layers, exec hires, and scaling without losing velocity.",
+    slug: "post-funding-hiring",
+    count: 25,
+  },
+  {
+    title: "The Super IC",
+    description: "The new org building block: individual contributors who use AI to operate at the output of a 3-5 person team.",
+    slug: "super-ic",
+    count: 10,
+  },
+  {
+    title: "Hire, Automate, or Super IC",
+    description: "The decision framework for every role. When to hire full-time, when to automate, and when a super IC is the answer.",
+    slug: "hire-automate-or-super-ic",
+    count: 11,
+  },
+];
+
+const featuredInsights = [
   {
     title: "What Should My First AI-Era Hire Be?",
     description: "A framework for deciding your highest-leverage hire when AI changes what every role can accomplish.",
@@ -303,7 +342,20 @@ const allInsights = [
     <h1>Insights</h1>
     <p class="subtitle">Workforce architecture for AI-era teams. Frameworks, not opinions.</p>
 
-    {allInsights.map((insight) => (
+    <h2 style="color: var(--fg); font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; margin-top: 0;">Topic Clusters</h2>
+
+    {subpaths.map((sp) => (
+      <div class="card">
+        <a href={`/insights/${sp.slug}`}>
+          <h2>{sp.title} <span style="font-size: 0.75rem; color: var(--muted); font-weight: 400;">({sp.count} articles)</span></h2>
+          <p>{sp.description}</p>
+        </a>
+      </div>
+    ))}
+
+    <h2 style="color: var(--fg); font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; margin-top: 2.5rem;">Featured</h2>
+
+    {featuredInsights.map((insight) => (
       <div class="card">
         <a href={`/insights/${insight.slug}`}>
           <h2>{insight.title}</h2>

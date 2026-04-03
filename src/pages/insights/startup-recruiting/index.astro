@@ -1,0 +1,496 @@
+---
+// Startup Recruiting index page
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Recruiting | Human in the Loop Talent</title>
+  <meta name="description" content="Insights on startup recruiting for AI-era teams. Frameworks and data from Human in the Loop Talent." />
+  <link rel="canonical" href="https://humaninthelooptalent.com/insights/startup-recruiting" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Startup Recruiting | Human in the Loop Talent" />
+  <meta property="og:description" content="Insights on startup recruiting for AI-era teams. Frameworks and data from Human in the Loop Talent." />
+  <meta property="og:url" content="https://humaninthelooptalent.com/insights/startup-recruiting" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Startup Recruiting — Human in the Loop Talent",
+    "description": "Insights on startup recruiting for AI-era teams. Frameworks and data from Human in the Loop Talent.",
+    "url": "https://humaninthelooptalent.com/insights/startup-recruiting",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Human in the Loop Talent",
+      "url": "https://humaninthelooptalent.com"
+    }
+  })} />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: hsl(40, 20%, 97%);
+      --fg: hsl(220, 25%, 10%);
+      --accent: hsl(162, 72%, 40%);
+      --muted: hsl(220, 10%, 46%);
+      --muted-light: hsl(40, 10%, 92%);
+      --border: hsl(220, 15%, 88%);
+      --surface-elevated: #fff;
+      --radius: 0.5rem;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: hsla(40, 20%, 97%, 0.8);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 72rem; margin: 0 auto; padding: 0 1.5rem;
+      display: flex; align-items: center; justify-content: space-between; height: 4rem;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 0.5rem;
+      text-decoration: none; font-size: 0.875rem; font-weight: 600;
+      letter-spacing: -0.01em; color: var(--fg);
+    }
+    .nav-brand .accent { color: var(--accent); margin-left: 0.25rem; }
+    .nav-links { display: flex; align-items: center; gap: 2rem; }
+    .nav-links a {
+      font-size: 0.75rem; font-weight: 500; color: var(--muted);
+      text-decoration: none; transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-cta {
+      font-size: 0.75rem; font-weight: 500; background: var(--fg); color: var(--bg);
+      padding: 0.5rem 1rem; border-radius: var(--radius);
+      text-decoration: none; transition: opacity 0.15s;
+    }
+    .nav-cta:hover { opacity: 0.9; }
+    .container { max-width: 48rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+    h1 { color: var(--fg); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--muted); margin-bottom: 2.5rem; }
+    .card {
+      background: var(--surface-elevated); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; transition: border-color 0.2s;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card a { text-decoration: none; }
+    .card h2 { color: var(--fg); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .card p { color: var(--muted); font-size: 0.875rem; margin: 0; }
+    .card .date { color: var(--muted); font-size: 0.75rem; margin-top: 0.75rem; }
+    .footer {
+      border-top: 1px solid var(--border); padding: 3rem 0;
+    }
+    .footer-inner { max-width: 72rem; margin: 0 auto; padding: 0 1.5rem; }
+    .footer-top { display: flex; flex-direction: column; gap: 2rem; }
+    @media (min-width: 768px) {
+      .footer-top { flex-direction: row; justify-content: space-between; align-items: center; }
+    }
+    .footer-brand { font-size: 0.875rem; font-weight: 600; color: var(--fg); margin-bottom: 0.25rem; }
+    .footer-brand .accent { color: var(--accent); margin-left: 0.25rem; }
+    .footer-tagline { font-size: 0.75rem; color: var(--muted); }
+    .footer-links { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.75rem; color: var(--muted); text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--fg); }
+    .footer-links .footer-btn {
+      font-size: 0.75rem; font-weight: 500; background: var(--fg); color: var(--bg);
+      padding: 0.5rem 1rem; border-radius: var(--radius); text-decoration: none;
+    }
+    .footer-links .footer-btn-outline {
+      font-size: 0.75rem; font-weight: 500; border: 1px solid var(--border); color: var(--fg);
+      padding: 0.5rem 1rem; border-radius: var(--radius); text-decoration: none;
+    }
+    .footer-bottom {
+      margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 1rem;
+    }
+    @media (min-width: 640px) {
+      .footer-bottom { flex-direction: row; justify-content: space-between; align-items: center; }
+    }
+    .footer-copyright { font-size: 0.75rem; color: var(--muted); }
+    .footer-legal { display: flex; align-items: center; gap: 1rem; }
+    .footer-legal a { font-size: 0.75rem; color: var(--muted); text-decoration: none; }
+    .nav-mobile-toggle { display: none; }
+    @media (max-width: 767px) {
+      .nav-links { display: none; }
+      .nav-mobile-toggle { display: block; background: none; border: none; color: var(--fg); cursor: pointer; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="https://humaninthelooptalent.com" class="nav-brand">
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="16" cy="16" rx="12" ry="6" transform="rotate(-25 16 16)" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+          <ellipse cx="16" cy="16" rx="12" ry="6" transform="rotate(35 16 16)" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="16" cy="16" r="2.5" fill="hsl(162, 72%, 40%)"/>
+          <circle cx="27" cy="13" r="1.5" fill="currentColor"/>
+          <circle cx="5" cy="19" r="1.5" fill="currentColor"/>
+        </svg>
+        Human in the Loop<span class="accent">Talent</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://humaninthelooptalent.com/#framework">Framework</a>
+        <a href="https://humaninthelooptalent.com/#services">Services</a>
+        <a href="/insights">Insights</a>
+        <a href="https://humaninthelooptalent.com/#diagnostic" class="nav-cta">Run Hiring Diagnostic</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Startup Recruiting</h1>
+    <p class="subtitle">Insights on startup recruiting for AI-era teams. Frameworks and data from Human in the Loop Talent.</p>
+
+      <div class="card">
+        <a href="/insights/startup-recruiting/stop-hiring-reactively-hire-strategically">
+          <h2>How do I stop hiring reactively and start hiring strategically?</h2>
+          <p>How do I stop hiring reactively and start hiring strategically? A diagnostic framework for startup leaders building AI-a...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/why-always-hiring-crisis-mode">
+          <h2>Why am I always hiring in crisis mode?</h2>
+          <p>Why am I always hiring in crisis mode? A educational guide for startup leaders building AI-augmented teams. From Human i...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/how-to-hire-first-engineer-founder">
+          <h2>How do I hire my first engineer as a founder?</h2>
+          <p>How do I hire my first engineer as a founder? A diagnostic framework for startup leaders building AI-augmented teams. Fr...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-generalist-or-specialist-seed-stage">
+          <h2>Should I hire a generalist or specialist at seed stage?</h2>
+          <p>Should I hire a generalist or specialist at seed stage? A strategic analysis for startup leaders building AI-augmented t...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hiring-mistakes-founder-led-teams-seed">
+          <h2>What hiring mistakes do founder-led teams make at seed stage?</h2>
+          <p>What hiring mistakes do founder-led teams make at seed stage? A diagnostic framework for startup leaders building AI-aug...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-culture-fit-or-hire-leverage">
+          <h2>Should I hire for culture fit or hire based on leverage?</h2>
+          <p>Should I hire for culture fit or hire based on leverage? A strategic analysis for startup leaders building AI-augmented ...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/job-description-attracts-talent-seed-startup">
+          <h2>What's a job description that actually attracts top talent to a seed stage startup?</h2>
+          <p>What's a job description that actually attracts top talent to a seed stage startup? A decision framework for startup lea...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/recruit-without-top-market-salary">
+          <h2>How do I recruit when I can't offer top market salary?</h2>
+          <p>How do I recruit when I can't offer top market salary? A decision framework for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/framework-successful-founders-use-to-hire">
+          <h2>What framework do successful founders use to hire?</h2>
+          <p>What framework do successful founders use to hire? A strategic analysis for startup leaders building AI-augmented teams....</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/onboard-first-10-hires-without-breaking">
+          <h2>How do I onboard my first 10 hires without breaking?</h2>
+          <p>How do I onboard my first 10 hires without breaking? A implementation guide for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/biggest-hiring-mistake-seed-stage">
+          <h2>What's the biggest hiring mistake I can make at seed stage?</h2>
+          <p>What's the biggest hiring mistake I can make at seed stage? A diagnostic framework for startup leaders building AI-augme...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-managers-never-managed-before">
+          <h2>How do I hire managers who've never managed before?</h2>
+          <p>How do I hire managers who've never managed before? A strategic analysis for startup leaders building AI-augmented teams...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-for-culture-when-not-interviewing-everyone">
+          <h2>How do I hire for team culture when I'm no longer interviewing everyone?</h2>
+          <p>How do I hire for team culture when I'm no longer interviewing everyone? A strategic analysis for startup leaders buildi...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/when-need-head-recruiting-vs-hiring-myself">
+          <h2>When do I need a Head of Recruiting vs. hiring myself?</h2>
+          <p>When do I need a Head of Recruiting vs. hiring myself? A strategic analysis for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-people-understand-ai-and-org-design">
+          <h2>How do I hire people who understand AI and organizational design?</h2>
+          <p>How do I hire people who understand AI and organizational design? A strategic analysis for startup leaders building AI-a...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-for-future-roles-dont-exist-yet">
+          <h2>How do I hire for future roles that don't exist yet?</h2>
+          <p>How do I hire for future roles that don't exist yet? A strategic analysis for startup leaders building AI-augmented team...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/recruit-super-ic-seed-stage-startup">
+          <h2>How do I recruit a super IC when I'm a seed-stage startup?</h2>
+          <p>How do I recruit a super IC when I'm a seed-stage startup? A decision framework for startup leaders building AI-augmente...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/hire-someone-become-super-ic-in-18-months">
+          <h2>How do I hire someone who can be a super IC in 18 months?</h2>
+          <p>How do I hire someone who can be a super IC in 18 months? A strategic analysis for startup leaders building AI-augmented...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/best-hiring-framework-early-stage-startups">
+          <h2>What's the best hiring framework for early stage startups?</h2>
+          <p>What's the best hiring framework for early stage startups? A strategic analysis for startup leaders building AI-augmente...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/interview-candidates-never-done-before">
+          <h2>How do I interview candidates when I've never done it before?</h2>
+          <p>How do I interview candidates when I've never done it before? A decision framework for startup leaders building AI-augme...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/look-for-early-employees-predicts-success">
+          <h2>What should I look for in early employees that predicts success?</h2>
+          <p>What should I look for in early employees that predicts success? A strategic analysis for startup leaders building AI-au...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/know-if-candidate-worth-the-risk">
+          <h2>How do I know if a candidate is worth the risk?</h2>
+          <p>How do I know if a candidate is worth the risk? A decision framework for startup leaders building AI-augmented teams. Fr...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/red-flags-hiring-early-employees">
+          <h2>What red flags should I look for when hiring early employees?</h2>
+          <p>What red flags should I look for when hiring early employees? A decision framework for startup leaders building AI-augme...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/how-long-hiring-process-seed-stage">
+          <h2>How long should it take to hire someone at a seed stage startup?</h2>
+          <p>How long should it take to hire someone at a seed stage startup? A strategic analysis for startup leaders building AI-au...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/use-recruiter-or-hire-myself-seed-stage">
+          <h2>Should I use a recruiter or hire myself at seed stage?</h2>
+          <p>Should I use a recruiter or hire myself at seed stage? A strategic analysis for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/build-employer-brand-zero-recognition">
+          <h2>How do I build a strong employer brand with zero brand recognition?</h2>
+          <p>How do I build a strong employer brand with zero brand recognition? A strategic analysis for startup leaders building AI...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/equity-grants-should-offer-seed-stage">
+          <h2>What equity grants should I offer to seed stage hires?</h2>
+          <p>What equity grants should I offer to seed stage hires? A decision framework for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/evaluate-candidate-ability-work-ambiguity">
+          <h2>How do I evaluate a candidate's ability to work in ambiguity?</h2>
+          <p>How do I evaluate a candidate's ability to work in ambiguity? A decision framework for startup leaders building AI-augme...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/questions-ask-candidates-predict-success">
+          <h2>What questions should I ask candidates that actually predict success?</h2>
+          <p>What questions should I ask candidates that actually predict success? A decision framework for startup leaders building ...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/negotiate-offers-early-hires-without-breaking-bank">
+          <h2>How do I negotiate offers for early hires without breaking the bank?</h2>
+          <p>How do I negotiate offers for early hires without breaking the bank? A decision framework for startup leaders building A...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/find-exceptional-talent-not-on-linkedin">
+          <h2>How do I find exceptional talent that doesn't exist on LinkedIn?</h2>
+          <p>How do I find exceptional talent that doesn't exist on LinkedIn? A strategic analysis for startup leaders building AI-au...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/retain-first-10-employees-long-term">
+          <h2>How do I retain my first 10 employees for the long term?</h2>
+          <p>How do I retain my first 10 employees for the long term? A implementation guide for startup leaders building AI-augmente...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/cost-bad-early-hire">
+          <h2>What's the cost of a bad early hire?</h2>
+          <p>What's the cost of a bad early hire? A diagnostic framework for startup leaders building AI-augmented teams. From Human ...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/scale-recruiting-without-hiring-recruiter">
+          <h2>How do I scale recruiting without hiring a recruiter?</h2>
+          <p>How do I scale recruiting without hiring a recruiter? A strategic analysis for startup leaders building AI-augmented tea...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/biggest-mistake-founders-scaling-recruiting">
+          <h2>What's the biggest mistake founders make when scaling recruiting?</h2>
+          <p>What's the biggest mistake founders make when scaling recruiting? A diagnostic framework for startup leaders building AI...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/build-recruiting-team-maintains-culture">
+          <h2>How do I build a recruiting team that maintains company culture?</h2>
+          <p>How do I build a recruiting team that maintains company culture? A strategic analysis for startup leaders building AI-au...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/outsource-recruiting-or-keep-in-house">
+          <h2>Should I outsource recruiting or keep it in-house?</h2>
+          <p>Should I outsource recruiting or keep it in-house? A strategic analysis for startup leaders building AI-augmented teams....</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/build-sourcing-pipeline-at-scale">
+          <h2>How do I build a sourcing pipeline at scale?</h2>
+          <p>How do I build a sourcing pipeline at scale? A strategic analysis for startup leaders building AI-augmented teams. From ...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/metrics-track-recruiting-effectiveness">
+          <h2>What metrics should I track for recruiting effectiveness?</h2>
+          <p>What metrics should I track for recruiting effectiveness? A strategic analysis for startup leaders building AI-augmented...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/reduce-time-to-hire-without-lowering-quality">
+          <h2>How do I reduce time to hire without lowering quality?</h2>
+          <p>How do I reduce time to hire without lowering quality? A strategic analysis for startup leaders building AI-augmented te...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/realistic-recruiting-budget-series-b">
+          <h2>What's a realistic recruiting budget for a Series B startup?</h2>
+          <p>What's a realistic recruiting budget for a Series B startup? A decision framework for startup leaders building AI-augmen...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/find-senior-talent-willing-join-early-stage">
+          <h2>How do I find senior talent that's willing to join an early-stage company?</h2>
+          <p>How do I find senior talent that's willing to join an early-stage company? A strategic analysis for startup leaders buil...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/right-interview-process-scaling-startup">
+          <h2>What's the right interview process for a scaling startup?</h2>
+          <p>What's the right interview process for a scaling startup? A strategic analysis for startup leaders building AI-augmented...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/startup-recruiting/evaluate-candidate-grow-into-larger-role">
+          <h2>How do I evaluate whether a candidate can grow into a larger role?</h2>
+          <p>How do I evaluate whether a candidate can grow into a larger role? A strategic analysis for startup leaders building AI-...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">Human in the Loop<span class="accent">Talent</span></div>
+          <div class="footer-tagline">AI-Augmented Workforce Architecture</div>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:inquiry@humanintheloop.com">Contact</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://humaninthelooptalent.com/#diagnostic" class="footer-btn">Run Hiring Diagnostic</a>
+          <a href="https://calendar.app.google/uwpZw9K6raiwU3m29" target="_blank" rel="noopener noreferrer" class="footer-btn-outline">Book Free Consultation</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 Human in the Loop Talent. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

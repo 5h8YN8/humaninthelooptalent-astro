@@ -1,0 +1,265 @@
+---
+// Hire, Automate, or Super IC index page
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hire, Automate, or Super IC | Human in the Loop Talent</title>
+  <meta name="description" content="Insights on hire, automate, or super ic for AI-era teams. Frameworks and data from Human in the Loop Talent." />
+  <link rel="canonical" href="https://humaninthelooptalent.com/insights/hire-automate-or-super-ic" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hire, Automate, or Super IC | Human in the Loop Talent" />
+  <meta property="og:description" content="Insights on hire, automate, or super ic for AI-era teams. Frameworks and data from Human in the Loop Talent." />
+  <meta property="og:url" content="https://humaninthelooptalent.com/insights/hire-automate-or-super-ic" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Hire, Automate, or Super IC — Human in the Loop Talent",
+    "description": "Insights on hire, automate, or super ic for AI-era teams. Frameworks and data from Human in the Loop Talent.",
+    "url": "https://humaninthelooptalent.com/insights/hire-automate-or-super-ic",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Human in the Loop Talent",
+      "url": "https://humaninthelooptalent.com"
+    }
+  })} />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: hsl(40, 20%, 97%);
+      --fg: hsl(220, 25%, 10%);
+      --accent: hsl(162, 72%, 40%);
+      --muted: hsl(220, 10%, 46%);
+      --muted-light: hsl(40, 10%, 92%);
+      --border: hsl(220, 15%, 88%);
+      --surface-elevated: #fff;
+      --radius: 0.5rem;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: hsla(40, 20%, 97%, 0.8);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 72rem; margin: 0 auto; padding: 0 1.5rem;
+      display: flex; align-items: center; justify-content: space-between; height: 4rem;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 0.5rem;
+      text-decoration: none; font-size: 0.875rem; font-weight: 600;
+      letter-spacing: -0.01em; color: var(--fg);
+    }
+    .nav-brand .accent { color: var(--accent); margin-left: 0.25rem; }
+    .nav-links { display: flex; align-items: center; gap: 2rem; }
+    .nav-links a {
+      font-size: 0.75rem; font-weight: 500; color: var(--muted);
+      text-decoration: none; transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-cta {
+      font-size: 0.75rem; font-weight: 500; background: var(--fg); color: var(--bg);
+      padding: 0.5rem 1rem; border-radius: var(--radius);
+      text-decoration: none; transition: opacity 0.15s;
+    }
+    .nav-cta:hover { opacity: 0.9; }
+    .container { max-width: 48rem; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+    h1 { color: var(--fg); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--muted); margin-bottom: 2.5rem; }
+    .card {
+      background: var(--surface-elevated); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; transition: border-color 0.2s;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card a { text-decoration: none; }
+    .card h2 { color: var(--fg); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .card p { color: var(--muted); font-size: 0.875rem; margin: 0; }
+    .card .date { color: var(--muted); font-size: 0.75rem; margin-top: 0.75rem; }
+    .footer {
+      border-top: 1px solid var(--border); padding: 3rem 0;
+    }
+    .footer-inner { max-width: 72rem; margin: 0 auto; padding: 0 1.5rem; }
+    .footer-top { display: flex; flex-direction: column; gap: 2rem; }
+    @media (min-width: 768px) {
+      .footer-top { flex-direction: row; justify-content: space-between; align-items: center; }
+    }
+    .footer-brand { font-size: 0.875rem; font-weight: 600; color: var(--fg); margin-bottom: 0.25rem; }
+    .footer-brand .accent { color: var(--accent); margin-left: 0.25rem; }
+    .footer-tagline { font-size: 0.75rem; color: var(--muted); }
+    .footer-links { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.75rem; color: var(--muted); text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--fg); }
+    .footer-links .footer-btn {
+      font-size: 0.75rem; font-weight: 500; background: var(--fg); color: var(--bg);
+      padding: 0.5rem 1rem; border-radius: var(--radius); text-decoration: none;
+    }
+    .footer-links .footer-btn-outline {
+      font-size: 0.75rem; font-weight: 500; border: 1px solid var(--border); color: var(--fg);
+      padding: 0.5rem 1rem; border-radius: var(--radius); text-decoration: none;
+    }
+    .footer-bottom {
+      margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 1rem;
+    }
+    @media (min-width: 640px) {
+      .footer-bottom { flex-direction: row; justify-content: space-between; align-items: center; }
+    }
+    .footer-copyright { font-size: 0.75rem; color: var(--muted); }
+    .footer-legal { display: flex; align-items: center; gap: 1rem; }
+    .footer-legal a { font-size: 0.75rem; color: var(--muted); text-decoration: none; }
+    .nav-mobile-toggle { display: none; }
+    @media (max-width: 767px) {
+      .nav-links { display: none; }
+      .nav-mobile-toggle { display: block; background: none; border: none; color: var(--fg); cursor: pointer; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="https://humaninthelooptalent.com" class="nav-brand">
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="16" cy="16" rx="12" ry="6" transform="rotate(-25 16 16)" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+          <ellipse cx="16" cy="16" rx="12" ry="6" transform="rotate(35 16 16)" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="16" cy="16" r="2.5" fill="hsl(162, 72%, 40%)"/>
+          <circle cx="27" cy="13" r="1.5" fill="currentColor"/>
+          <circle cx="5" cy="19" r="1.5" fill="currentColor"/>
+        </svg>
+        Human in the Loop<span class="accent">Talent</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://humaninthelooptalent.com/#framework">Framework</a>
+        <a href="https://humaninthelooptalent.com/#services">Services</a>
+        <a href="/insights">Insights</a>
+        <a href="https://humaninthelooptalent.com/#diagnostic" class="nav-cta">Run Hiring Diagnostic</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Hire, Automate, or Super IC</h1>
+    <p class="subtitle">Insights on hire, automate, or super ic for AI-era teams. Frameworks and data from Human in the Loop Talent.</p>
+
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/decide-between-hiring-automating-super-ic">
+          <h2>How do I decide between hiring, automating, or finding a super IC?</h2>
+          <p>How do I decide between hiring, automating, or finding a super IC? A diagnostic framework for startup leaders building A...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/can-one-person-do-work-of-three-with-ai">
+          <h2>Can one person do the work of three with AI tools?</h2>
+          <p>Can one person do the work of three with AI tools? A diagnostic framework for startup leaders building AI-augmented team...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/know-if-should-hire-or-build-internal-tool">
+          <h2>How do I know if I should hire or build an internal tool?</h2>
+          <p>How do I know if I should hire or build an internal tool? A strategic analysis for startup leaders building AI-augmented...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/measure-whether-role-should-filled-or-automated">
+          <h2>How do I measure whether a role should be filled or automated?</h2>
+          <p>How do I measure whether a role should be filled or automated? A strategic analysis for startup leaders building AI-augm...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/framework-deciding-hire-automate-super-ic">
+          <h2>What's the framework for deciding hire vs automate vs super IC?</h2>
+          <p>What's the framework for deciding hire vs automate vs super IC? A strategic analysis for startup leaders building AI-aug...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/when-should-automate-vs-hire">
+          <h2>When should I automate vs. hire?</h2>
+          <p>When should I automate vs. hire? A diagnostic framework for startup leaders building AI-augmented teams. From Human in t...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/calculate-roi-hiring-vs-automating-process">
+          <h2>How do I calculate the ROI of hiring vs. automating a process?</h2>
+          <p>How do I calculate the ROI of hiring vs. automating a process? A strategic analysis for startup leaders building AI-augm...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/what-processes-should-automate-first">
+          <h2>What processes should I automate first?</h2>
+          <p>What processes should I automate first? A strategic analysis for startup leaders building AI-augmented teams. From Human...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/run-startup-three-people-lot-automation">
+          <h2>Can I really run a startup with just three people and a lot of automation?</h2>
+          <p>Can I really run a startup with just three people and a lot of automation? A strategic analysis for startup leaders buil...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/hire-contractor-employee-or-super-ic">
+          <h2>Should I hire a contractor, an employee, or a super IC?</h2>
+          <p>Should I hire a contractor, an employee, or a super IC? A strategic analysis for startup leaders building AI-augmented t...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/insights/hire-automate-or-super-ic/know-when-role-shifted-hire-to-automate">
+          <h2>How do I know when a role has shifted from hire to automate?</h2>
+          <p>How do I know when a role has shifted from hire to automate? A strategic analysis for startup leaders building AI-augmen...</p>
+          <div class="date">April 03, 2026</div>
+        </a>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">Human in the Loop<span class="accent">Talent</span></div>
+          <div class="footer-tagline">AI-Augmented Workforce Architecture</div>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:inquiry@humanintheloop.com">Contact</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://humaninthelooptalent.com/#diagnostic" class="footer-btn">Run Hiring Diagnostic</a>
+          <a href="https://calendar.app.google/uwpZw9K6raiwU3m29" target="_blank" rel="noopener noreferrer" class="footer-btn-outline">Book Free Consultation</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 Human in the Loop Talent. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

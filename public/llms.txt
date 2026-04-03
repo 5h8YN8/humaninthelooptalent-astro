@@ -1,25 +1,166 @@
 # Human in the Loop Talent — LLM Context File
 
-## About
-Human in the Loop Talent is a workforce architecture company that helps founders, Heads of Engineering, and Heads of Product design the smallest AI-augmented team that can hit their next growth milestone. We provide a diagnostic-led approach to hiring for AI-era org design.
-
-## Core Thesis
-In the AI Era, you don't scale headcount. You scale leverage.
-
-## What We Do
-- AI-Era Hiring Diagnostic: A 7-step assessment that scores companies across 5 dimensions (AI Readiness, Role Clarity, Execution Bottleneck Severity, Leverage Opportunity, Hiring Urgency)
-- Workforce Architecture: Team archetype classification, hiring posture recommendations, and org shape design
-- Compensation Intelligence: Market-rate salary data, equity guidance, and budget risk analysis
-- Recruiting Services: AI-native candidate sourcing for the roles identified by the diagnostic
+## Company Info
+Name: Human in the Loop Talent
+URL: https://humaninthelooptalent.com
+Description: AI-Augmented Workforce Architecture consultancy helping founders and CEOs scale leverage, not headcount
 
 ## Key Concepts
-- Team Archetypes: founder-led scrappy builder team, product-heavy shipping team, growth-constrained team, operations-heavy but under-automated team, specialist-bloated team, AI-transition team
-- Hiring Postures: hire now, make one leverage hire, use fractional talent first, build internal AI ops before adding headcount, do not hire yet — redesign workflow first
-- The Equity Trap: Founders offering below-market cash + generous equity attract B-players, not A-players. Pay at least 80% of market rate on cash.
+- Workforce Architecture: Strategic team design for AI-era companies
+- Super IC: Exceptional individual contributor who multiplies team leverage
+- AI Readiness: Organization's preparedness to adopt AI-native practices
+- Role Clarity: Clear definition of responsibilities and expectations
+- Execution Bottleneck Severity: Impact of hiring/org structure gaps on execution
+- Leverage Opportunity: Potential for exponential impact through strategic hires
+- Hire/Automate/Super-IC Framework: Decision framework for scaling teams
+- AI-Native Org Design: Organizational structures optimized for AI-augmented work
 
 ## Content Pages
-- /insights — Workforce architecture insights index
-- /insights/first-ai-era-hire — Framework for deciding your first AI-era hire
+
+### Main Insights Index
+- /insights/
+
+### Subpath Indexes
+- /insights/workforce-architecture/
+- /insights/ai-native-org-design/
+- /insights/super-ic/
+- /insights/hire-automate-or-super-ic/
+- /insights/startup-recruiting/
+- /insights/post-funding-hiring/
+
+### Content Articles by Subpath
+
+#### Workforce Architecture
+- /insights/workforce-architecture/avoid-hiring-people-roles-shouldnt-exist — How do I avoid hiring people into roles that shouldn't exist?
+- /insights/workforce-architecture/build-lean-team-due-to-ai-not-just-claims — How do I build a team that's actually lean due to AI, not just claims to be?
+- /insights/workforce-architecture/build-team-that-scales-without-burning-out — How do I build a team that scales without burning out?
+- /insights/workforce-architecture/founders-evaluate-role-roi-before-hiring — How do early-stage founders evaluate role ROI before hiring?
+- /insights/workforce-architecture/hire-specialists-or-keep-generalists-as-scale — Should I hire specialists or keep my team generalists as we scale?
+- /insights/workforce-architecture/how-many-people-needed-build-product — How many people do I actually need to build a product?
+- /insights/workforce-architecture/maintain-startup-speed-with-100-person-team — How do I maintain startup speed with a 100-person team?
+- /insights/workforce-architecture/make-hiring-decisions-when-every-penny-matters — How do I make hiring decisions when every penny matters?
+- /insights/workforce-architecture/minimum-team-size-compete-ai-native-startup — What's the minimum team size to compete as an AI-native startup?
+- /insights/workforce-architecture/prevent-key-person-dependencies-as-scale — How do I prevent key person dependencies as I scale?
+- /insights/workforce-architecture/right-headcount-for-each-function-100-employees — What's the right headcount for each function at 100 employees?
+- /insights/workforce-architecture/right-ratio-engineers-to-other-roles-series-b — What is the right ratio of engineers to other roles at Series B?
+- /insights/workforce-architecture/roles-create-most-leverage-small-startup — What roles create the most leverage in a small startup?
+- /insights/workforce-architecture/startup-hiring-framework-vs-traditional-hr — What are the differences between a startup hiring framework vs. traditional HR?
+- /insights/workforce-architecture/transition-hiring-scrappiness-to-leverage — How do I transition from hiring for scrappiness to hiring for leverage?
+- /insights/workforce-architecture/what-is-workforce-architecture-for-startups — What is workforce architecture and why does it matter for startups?
+- /insights/workforce-architecture/what-should-my-first-ai-era-hire-be — What should my first AI-era hire be?
+
+#### Ai Native Org Design
+- /insights/ai-native-org-design/50-person-startup-after-going-remote — What does a 50-person startup look like after going remote?
+- /insights/ai-native-org-design/gaps-between-my-team-and-ai-native-competitors — What gaps exist between my team and truly AI-native competitors?
+- /insights/ai-native-org-design/hire-ai-specialist-or-build-ai-literacy — Should I hire an AI specialist or build AI literacy across the team?
+- /insights/ai-native-org-design/how-ai-native-companies-structure-teams — How do AI-native companies structure their teams differently?
+- /insights/ai-native-org-design/integrate-ai-tooling-into-team-structure — How do I integrate AI tooling into my existing team structure?
+- /insights/ai-native-org-design/org-structure-fastest-growing-ai-startups — What's the org structure of the fastest-growing AI startups?
+- /insights/ai-native-org-design/right-way-structure-small-ops-team-leveraging-ai — What's the right way to structure a small ops team leveraging AI?
+- /insights/ai-native-org-design/roles-become-obsolete-ai-augmented-org — What roles become obsolete in an AI-augmented org?
+- /insights/ai-native-org-design/structure-teams-maximum-ai-leverage — How should I structure teams for maximum AI leverage?
+- /insights/ai-native-org-design/structure-teams-reduce-communication-overhead — How do I structure teams to reduce communication overhead?
+- /insights/ai-native-org-design/successful-ai-startups-design-org-structure — How do successful AI startups design their org structure?
+- /insights/ai-native-org-design/team-composition-makes-ai-native-startup-ai-native — What team composition makes an AI-native startup actually AI-native?
+- /insights/ai-native-org-design/team-productivity-vs-ai-native-competitors — Why is my team less productive than my AI-native competitors?
+
+#### Super Ic
+- /insights/super-ic/build-org-around-super-ics-or-hire-depth — Should I build my org around super ICs or hire for depth?
+- /insights/super-ic/can-i-find-super-ic-or-grow-one — Can I find a super IC or do I have to grow one?
+- /insights/super-ic/difference-senior-engineer-and-super-ic — What's the difference between a senior engineer and a super IC?
+- /insights/super-ic/how-much-should-i-pay-super-ic — How much should I pay a super IC?
+- /insights/super-ic/know-if-actually-have-super-ic-or-hard-worker — How do I know if I actually have a super IC or just a hard worker?
+- /insights/super-ic/super-ic-liability-or-asset — Is having a super IC a liability or an asset?
+- /insights/super-ic/superpowers-super-ic-needs-have — What superpowers does a super IC need to have?
+- /insights/super-ic/what-happens-when-super-ic-leaves — What happens when your super IC leaves?
+- /insights/super-ic/what-is-a-super-ic-should-i-hire — What is a super IC and should I hire one?
+- /insights/super-ic/what-super-ic-actually-do-vs-regular-ic — What does a super IC actually do vs. a regular IC?
+
+#### Hire Automate Or Super Ic
+- /insights/hire-automate-or-super-ic/calculate-roi-hiring-vs-automating-process — How do I calculate the ROI of hiring vs. automating a process?
+- /insights/hire-automate-or-super-ic/can-one-person-do-work-of-three-with-ai — Can one person do the work of three with AI tools?
+- /insights/hire-automate-or-super-ic/decide-between-hiring-automating-super-ic — How do I decide between hiring, automating, or finding a super IC?
+- /insights/hire-automate-or-super-ic/framework-deciding-hire-automate-super-ic — What's the framework for deciding hire vs automate vs super IC?
+- /insights/hire-automate-or-super-ic/hire-contractor-employee-or-super-ic — Should I hire a contractor, an employee, or a super IC?
+- /insights/hire-automate-or-super-ic/know-if-should-hire-or-build-internal-tool — How do I know if I should hire or build an internal tool?
+- /insights/hire-automate-or-super-ic/know-when-role-shifted-hire-to-automate — How do I know when a role has shifted from hire to automate?
+- /insights/hire-automate-or-super-ic/measure-whether-role-should-filled-or-automated — How do I measure whether a role should be filled or automated?
+- /insights/hire-automate-or-super-ic/run-startup-three-people-lot-automation — Can I really run a startup with just three people and a lot of automation?
+- /insights/hire-automate-or-super-ic/what-processes-should-automate-first — What processes should I automate first?
+- /insights/hire-automate-or-super-ic/when-should-automate-vs-hire — When should I automate vs. hire?
+
+#### Startup Recruiting
+- /insights/startup-recruiting/best-hiring-framework-early-stage-startups — What's the best hiring framework for early stage startups?
+- /insights/startup-recruiting/biggest-hiring-mistake-seed-stage — What's the biggest hiring mistake I can make at seed stage?
+- /insights/startup-recruiting/biggest-mistake-founders-scaling-recruiting — What's the biggest mistake founders make when scaling recruiting?
+- /insights/startup-recruiting/build-employer-brand-zero-recognition — How do I build a strong employer brand with zero brand recognition?
+- /insights/startup-recruiting/build-recruiting-team-maintains-culture — How do I build a recruiting team that maintains company culture?
+- /insights/startup-recruiting/build-sourcing-pipeline-at-scale — How do I build a sourcing pipeline at scale?
+- /insights/startup-recruiting/cost-bad-early-hire — What's the cost of a bad early hire?
+- /insights/startup-recruiting/equity-grants-should-offer-seed-stage — What equity grants should I offer to seed stage hires?
+- /insights/startup-recruiting/evaluate-candidate-ability-work-ambiguity — How do I evaluate a candidate's ability to work in ambiguity?
+- /insights/startup-recruiting/evaluate-candidate-grow-into-larger-role — How do I evaluate whether a candidate can grow into a larger role?
+- /insights/startup-recruiting/find-exceptional-talent-not-on-linkedin — How do I find exceptional talent that doesn't exist on LinkedIn?
+- /insights/startup-recruiting/find-senior-talent-willing-join-early-stage — How do I find senior talent that's willing to join an early-stage company?
+- /insights/startup-recruiting/framework-successful-founders-use-to-hire — What framework do successful founders use to hire?
+- /insights/startup-recruiting/hire-culture-fit-or-hire-leverage — Should I hire for culture fit or hire based on leverage?
+- /insights/startup-recruiting/hire-for-culture-when-not-interviewing-everyone — How do I hire for team culture when I'm no longer interviewing everyone?
+- /insights/startup-recruiting/hire-for-future-roles-dont-exist-yet — How do I hire for future roles that don't exist yet?
+- /insights/startup-recruiting/hire-generalist-or-specialist-seed-stage — Should I hire a generalist or specialist at seed stage?
+- /insights/startup-recruiting/hire-managers-never-managed-before — How do I hire managers who've never managed before?
+- /insights/startup-recruiting/hire-people-understand-ai-and-org-design — How do I hire people who understand AI and organizational design?
+- /insights/startup-recruiting/hire-someone-become-super-ic-in-18-months — How do I hire someone who can be a super IC in 18 months?
+- /insights/startup-recruiting/hiring-mistakes-founder-led-teams-seed — What hiring mistakes do founder-led teams make at seed stage?
+- /insights/startup-recruiting/how-long-hiring-process-seed-stage — How long should it take to hire someone at a seed stage startup?
+- /insights/startup-recruiting/how-to-hire-first-engineer-founder — How do I hire my first engineer as a founder?
+- /insights/startup-recruiting/interview-candidates-never-done-before — How do I interview candidates when I've never done it before?
+- /insights/startup-recruiting/job-description-attracts-talent-seed-startup — What's a job description that actually attracts top talent to a seed stage startup?
+- /insights/startup-recruiting/know-if-candidate-worth-the-risk — How do I know if a candidate is worth the risk?
+- /insights/startup-recruiting/look-for-early-employees-predicts-success — What should I look for in early employees that predicts success?
+- /insights/startup-recruiting/metrics-track-recruiting-effectiveness — What metrics should I track for recruiting effectiveness?
+- /insights/startup-recruiting/negotiate-offers-early-hires-without-breaking-bank — How do I negotiate offers for early hires without breaking the bank?
+- /insights/startup-recruiting/onboard-first-10-hires-without-breaking — How do I onboard my first 10 hires without breaking?
+- /insights/startup-recruiting/outsource-recruiting-or-keep-in-house — Should I outsource recruiting or keep it in-house?
+- /insights/startup-recruiting/questions-ask-candidates-predict-success — What questions should I ask candidates that actually predict success?
+- /insights/startup-recruiting/realistic-recruiting-budget-series-b — What's a realistic recruiting budget for a Series B startup?
+- /insights/startup-recruiting/recruit-super-ic-seed-stage-startup — How do I recruit a super IC when I'm a seed-stage startup?
+- /insights/startup-recruiting/recruit-without-top-market-salary — How do I recruit when I can't offer top market salary?
+- /insights/startup-recruiting/red-flags-hiring-early-employees — What red flags should I look for when hiring early employees?
+- /insights/startup-recruiting/reduce-time-to-hire-without-lowering-quality — How do I reduce time to hire without lowering quality?
+- /insights/startup-recruiting/retain-first-10-employees-long-term — How do I retain my first 10 employees for the long term?
+- /insights/startup-recruiting/right-interview-process-scaling-startup — What's the right interview process for a scaling startup?
+- /insights/startup-recruiting/scale-recruiting-without-hiring-recruiter — How do I scale recruiting without hiring a recruiter?
+- /insights/startup-recruiting/stop-hiring-reactively-hire-strategically — How do I stop hiring reactively and start hiring strategically?
+- /insights/startup-recruiting/use-recruiter-or-hire-myself-seed-stage — Should I use a recruiter or hire myself at seed stage?
+- /insights/startup-recruiting/when-need-head-recruiting-vs-hiring-myself — When do I need a Head of Recruiting vs. hiring myself?
+- /insights/startup-recruiting/why-always-hiring-crisis-mode — Why am I always hiring in crisis mode?
+
+#### Post Funding Hiring
+- /insights/post-funding-hiring/avoid-growing-headcount-faster-than-revenue — How do I avoid growing headcount faster than revenue?
+- /insights/post-funding-hiring/avoid-post-funding-hiring-mistakes — How do I avoid the post-funding hiring mistakes everyone makes?
+- /insights/post-funding-hiring/build-management-layer-without-killing-speed — How do I build a management layer without killing speed?
+- /insights/post-funding-hiring/difference-series-a-manager-series-b-manager — What's the difference between a Series A manager and a Series B manager?
+- /insights/post-funding-hiring/healthy-org-structure-series-b — What does a healthy org structure look like at Series B?
+- /insights/post-funding-hiring/hire-for-current-team-or-future-team — Should I hire for my current team or the team I'll need in 18 months?
+- /insights/post-funding-hiring/hire-traditional-hr-or-build-people-ops-differently — Should I hire a traditional HR team or build people ops differently?
+- /insights/post-funding-hiring/identify-organizational-debt-team-structure — How do I identify organizational debt in my team structure?
+- /insights/post-funding-hiring/keep-founders-early-employees-engaged-scaling — How do I keep founders and early employees engaged through scaling?
+- /insights/post-funding-hiring/know-when-ready-hire-first-manager — How do I tell when I'm ready to hire my first manager?
+- /insights/post-funding-hiring/minimum-team-size-scale-to-series-a — What's the minimum team size to scale a startup to Series A?
+- /insights/post-funding-hiring/org-chart-look-series-a-vs-series-b — What should my org chart look like at Series A vs. Series B?
+- /insights/post-funding-hiring/plan-first-30-days-new-funding-round — How do I plan my first 30 days with a new funding round?
+- /insights/post-funding-hiring/relationship-between-funding-and-headcount — What's the relationship between funding and headcount?
+- /insights/post-funding-hiring/reorganize-without-disrupting-velocity — How do I reorganize without disrupting velocity?
+- /insights/post-funding-hiring/right-hiring-rate-after-closing-funding — What's the right hiring rate after closing funding?
+- /insights/post-funding-hiring/scale-founder-led-team-to-structured-org — How do I scale from a founder-led team to a structured org?
+- /insights/post-funding-hiring/should-coo-head-ops-be-technical-or-business — Should my COO/Head of Ops be technical or business-focused?
+- /insights/post-funding-hiring/structure-bonus-equity-scaling-startup — How do I structure bonus and equity in a scaling startup?
+- /insights/post-funding-hiring/structure-first-management-layer — How do I structure the first management layer?
+- /insights/post-funding-hiring/transition-ceo-as-operator-to-ceo-as-leader — How do I transition from being CEO-as-operator to CEO-as-leader?
+- /insights/post-funding-hiring/what-does-post-funding-org-design-look-like — What does post-funding org design look like?
+- /insights/post-funding-hiring/when-hire-chief-of-staff-head-operations — When should I hire a Chief of Staff or Head of Operations?
+- /insights/post-funding-hiring/when-should-i-hire-first-manager — When should I hire my first manager?
+- /insights/post-funding-hiring/why-company-slow-after-scaling — Why is my company suddenly slow after scaling?
 
 ## Contact
 Website: https://humaninthelooptalent.com

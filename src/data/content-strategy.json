@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "q001",
+    "question": "What is workforce architecture and why does it matter for startups?",
+    "slug": "what-is-workforce-architecture-for-startups",
+    "icp": "cross-icp",
+    "buyerIntent": "unaware",
+    "pageType": "pillar",
+    "subpath": "workforce-architecture",
+    "questionType": "definitional"
+  },
+  {
+    "id": "q002",
+    "question": "How do AI-native companies structure their teams differently?",
+    "slug": "how-ai-native-companies-structure-teams",
+    "icp": "cross-icp",
+    "buyerIntent": "unaware",
+    "pageType": "pillar",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q003",
+    "question": "What is a super IC and should I hire one?",
+    "slug": "what-is-a-super-ic-should-i-hire",
+    "icp": "cross-icp",
+    "buyerIntent": "unaware",
+    "pageType": "pillar",
+    "subpath": "super-ic",
+    "questionType": "definitional"
+  },
+  {
+    "id": "q004",
+    "question": "How do I decide between hiring, automating, or finding a super IC?",
+    "slug": "decide-between-hiring-automating-super-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "pillar",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q005",
+    "question": "What roles create the most leverage in a small startup?",
+    "slug": "roles-create-most-leverage-small-startup",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "cluster",
+    "subpath": "workforce-architecture",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q006",
+    "question": "How do I stop hiring reactively and start hiring strategically?",
+    "slug": "stop-hiring-reactively-hire-strategically",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q007",
+    "question": "Why am I always hiring in crisis mode?",
+    "slug": "why-always-hiring-crisis-mode",
+    "icp": "cross-icp",
+    "buyerIntent": "unaware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "symptom"
+  },
+  {
+    "id": "q008",
+    "question": "How do successful AI startups design their org structure?",
+    "slug": "successful-ai-startups-design-org-structure",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "case_study",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q009",
+    "question": "What are the differences between a startup hiring framework vs. traditional HR?",
+    "slug": "startup-hiring-framework-vs-traditional-hr",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "comparison",
+    "subpath": "workforce-architecture",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q010",
+    "question": "How do I build a management layer without killing speed?",
+    "slug": "build-management-layer-without-killing-speed",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q011",
+    "question": "Why is my team less productive than my AI-native competitors?",
+    "slug": "team-productivity-vs-ai-native-competitors",
+    "icp": "1",
+    "buyerIntent": "unaware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "symptom"
+  },
+  {
+    "id": "q012",
+    "question": "How do I hire my first engineer as a founder?",
+    "slug": "how-to-hire-first-engineer-founder",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q013",
+    "question": "What should my first AI-era hire be?",
+    "slug": "what-should-my-first-ai-era-hire-be",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "feature"
+  },
+  {
+    "id": "q014",
+    "question": "How many people do I actually need to build a product?",
+    "slug": "how-many-people-needed-build-product",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q015",
+    "question": "Should I hire a generalist or specialist at seed stage?",
+    "slug": "hire-generalist-or-specialist-seed-stage",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q016",
+    "question": "What's the minimum team size to scale a startup to Series A?",
+    "slug": "minimum-team-size-scale-to-series-a",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q017",
+    "question": "Can one person do the work of three with AI tools?",
+    "slug": "can-one-person-do-work-of-three-with-ai",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "faq",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "validation"
+  },
+  {
+    "id": "q018",
+    "question": "How do I know if I should hire or build an internal tool?",
+    "slug": "know-if-should-hire-or-build-internal-tool",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q019",
+    "question": "What hiring mistakes do founder-led teams make at seed stage?",
+    "slug": "hiring-mistakes-founder-led-teams-seed",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q020",
+    "question": "How do early-stage founders evaluate role ROI before hiring?",
+    "slug": "founders-evaluate-role-roi-before-hiring",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q021",
+    "question": "Should I hire for culture fit or hire based on leverage?",
+    "slug": "hire-culture-fit-or-hire-leverage",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q022",
+    "question": "How do I make hiring decisions when every penny matters?",
+    "slug": "make-hiring-decisions-when-every-penny-matters",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "validation"
+  },
+  {
+    "id": "q023",
+    "question": "What's a job description that actually attracts top talent to a seed stage startup?",
+    "slug": "job-description-attracts-talent-seed-startup",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q024",
+    "question": "How do I recruit when I can't offer top market salary?",
+    "slug": "recruit-without-top-market-salary",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q025",
+    "question": "What framework do successful founders use to hire?",
+    "slug": "framework-successful-founders-use-to-hire",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "pillar",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q026",
+    "question": "How do I onboard my first 10 hires without breaking?",
+    "slug": "onboard-first-10-hires-without-breaking",
+    "icp": "1",
+    "buyerIntent": "retention",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q027",
+    "question": "When should I hire my first manager?",
+    "slug": "when-should-i-hire-first-manager",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q028",
+    "question": "How do I transition from being CEO-as-operator to CEO-as-leader?",
+    "slug": "transition-ceo-as-operator-to-ceo-as-leader",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q029",
+    "question": "What's the biggest hiring mistake I can make at seed stage?",
+    "slug": "biggest-hiring-mistake-seed-stage",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q030",
+    "question": "How do I build a team that scales without burning out?",
+    "slug": "build-team-that-scales-without-burning-out",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "educational"
+  },
+  {
+    "id": "q031",
+    "question": "How do I scale from a founder-led team to a structured org?",
+    "slug": "scale-founder-led-team-to-structured-org",
+    "icp": "2",
+    "buyerIntent": "problem_aware",
+    "pageType": "pillar",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q032",
+    "question": "What does a healthy org structure look like at Series B?",
+    "slug": "healthy-org-structure-series-b",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q033",
+    "question": "How do I hire managers who've never managed before?",
+    "slug": "hire-managers-never-managed-before",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q034",
+    "question": "Why is my company suddenly slow after scaling?",
+    "slug": "why-company-slow-after-scaling",
+    "icp": "2",
+    "buyerIntent": "unaware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "symptom"
+  },
+  {
+    "id": "q035",
+    "question": "How do I maintain startup speed with a 100-person team?",
+    "slug": "maintain-startup-speed-with-100-person-team",
+    "icp": "2",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q036",
+    "question": "What is the right ratio of engineers to other roles at Series B?",
+    "slug": "right-ratio-engineers-to-other-roles-series-b",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "educational"
+  },
+  {
+    "id": "q037",
+    "question": "How do I structure teams to reduce communication overhead?",
+    "slug": "structure-teams-reduce-communication-overhead",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q038",
+    "question": "When should I hire a Chief of Staff or Head of Operations?",
+    "slug": "when-hire-chief-of-staff-head-operations",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q039",
+    "question": "How do I transition from hiring for scrappiness to hiring for leverage?",
+    "slug": "transition-hiring-scrappiness-to-leverage",
+    "icp": "2",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "educational"
+  },
+  {
+    "id": "q040",
+    "question": "What's the difference between a Series A manager and a Series B manager?",
+    "slug": "difference-series-a-manager-series-b-manager",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q041",
+    "question": "How do I hire for team culture when I'm no longer interviewing everyone?",
+    "slug": "hire-for-culture-when-not-interviewing-everyone",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q042",
+    "question": "Should I hire specialists or keep my team generalists as we scale?",
+    "slug": "hire-specialists-or-keep-generalists-as-scale",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q043",
+    "question": "How do I identify organizational debt in my team structure?",
+    "slug": "identify-organizational-debt-team-structure",
+    "icp": "2",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q044",
+    "question": "What does a 50-person startup look like after going remote?",
+    "slug": "50-person-startup-after-going-remote",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q045",
+    "question": "How do I prevent key person dependencies as I scale?",
+    "slug": "prevent-key-person-dependencies-as-scale",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q046",
+    "question": "What's the right headcount for each function at 100 employees?",
+    "slug": "right-headcount-for-each-function-100-employees",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "educational"
+  },
+  {
+    "id": "q047",
+    "question": "How do I keep founders and early employees engaged through scaling?",
+    "slug": "keep-founders-early-employees-engaged-scaling",
+    "icp": "2",
+    "buyerIntent": "retention",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q048",
+    "question": "Should I hire a traditional HR team or build people ops differently?",
+    "slug": "hire-traditional-hr-or-build-people-ops-differently",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "comparison",
+    "subpath": "post-funding-hiring",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q049",
+    "question": "How do I structure bonus and equity in a scaling startup?",
+    "slug": "structure-bonus-equity-scaling-startup",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q050",
+    "question": "When do I need a Head of Recruiting vs. hiring myself?",
+    "slug": "when-need-head-recruiting-vs-hiring-myself",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q051",
+    "question": "How should I structure teams for maximum AI leverage?",
+    "slug": "structure-teams-maximum-ai-leverage",
+    "icp": "3",
+    "buyerIntent": "problem_aware",
+    "pageType": "pillar",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q052",
+    "question": "What team composition makes an AI-native startup actually AI-native?",
+    "slug": "team-composition-makes-ai-native-startup-ai-native",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q053",
+    "question": "How do I integrate AI tooling into my existing team structure?",
+    "slug": "integrate-ai-tooling-into-team-structure",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q054",
+    "question": "Should I hire an AI specialist or build AI literacy across the team?",
+    "slug": "hire-ai-specialist-or-build-ai-literacy",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "ai-native-org-design",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q055",
+    "question": "What gaps exist between my team and truly AI-native competitors?",
+    "slug": "gaps-between-my-team-and-ai-native-competitors",
+    "icp": "3",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q056",
+    "question": "How do I hire people who understand AI and organizational design?",
+    "slug": "hire-people-understand-ai-and-org-design",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q057",
+    "question": "What roles become obsolete in an AI-augmented org?",
+    "slug": "roles-become-obsolete-ai-augmented-org",
+    "icp": "3",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q058",
+    "question": "How do I reorganize without disrupting velocity?",
+    "slug": "reorganize-without-disrupting-velocity",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q059",
+    "question": "What's the org structure of the fastest-growing AI startups?",
+    "slug": "org-structure-fastest-growing-ai-startups",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "case_study",
+    "subpath": "ai-native-org-design",
+    "questionType": "educational"
+  },
+  {
+    "id": "q060",
+    "question": "How do I build a team that's actually lean due to AI, not just claims to be?",
+    "slug": "build-lean-team-due-to-ai-not-just-claims",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q061",
+    "question": "Should my COO/Head of Ops be technical or business-focused?",
+    "slug": "should-coo-head-ops-be-technical-or-business",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q062",
+    "question": "How do I measure whether a role should be filled or automated?",
+    "slug": "measure-whether-role-should-filled-or-automated",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q063",
+    "question": "What's the right way to structure a small ops team leveraging AI?",
+    "slug": "right-way-structure-small-ops-team-leveraging-ai",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "ai-native-org-design",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q064",
+    "question": "How do I avoid hiring people into roles that shouldn't exist?",
+    "slug": "avoid-hiring-people-roles-shouldnt-exist",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "workforce-architecture",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q065",
+    "question": "What's the minimum team size to compete as an AI-native startup?",
+    "slug": "minimum-team-size-compete-ai-native-startup",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "workforce-architecture",
+    "questionType": "educational"
+  },
+  {
+    "id": "q066",
+    "question": "How do I hire for future roles that don't exist yet?",
+    "slug": "hire-for-future-roles-dont-exist-yet",
+    "icp": "3",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q067",
+    "question": "What does a super IC actually do vs. a regular IC?",
+    "slug": "what-super-ic-actually-do-vs-regular-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "super-ic",
+    "questionType": "definitional"
+  },
+  {
+    "id": "q068",
+    "question": "How much should I pay a super IC?",
+    "slug": "how-much-should-i-pay-super-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q069",
+    "question": "Can I find a super IC or do I have to grow one?",
+    "slug": "can-i-find-super-ic-or-grow-one",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q070",
+    "question": "What's the difference between a senior engineer and a super IC?",
+    "slug": "difference-senior-engineer-and-super-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "super-ic",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q071",
+    "question": "How do I know if I actually have a super IC or just a hard worker?",
+    "slug": "know-if-actually-have-super-ic-or-hard-worker",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "faq",
+    "subpath": "super-ic",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q072",
+    "question": "What superpowers does a super IC need to have?",
+    "slug": "superpowers-super-ic-needs-have",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q073",
+    "question": "How do I recruit a super IC when I'm a seed-stage startup?",
+    "slug": "recruit-super-ic-seed-stage-startup",
+    "icp": "cross-icp",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q074",
+    "question": "Should I build my org around super ICs or hire for depth?",
+    "slug": "build-org-around-super-ics-or-hire-depth",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "super-ic",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q075",
+    "question": "What happens when your super IC leaves?",
+    "slug": "what-happens-when-super-ic-leaves",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q076",
+    "question": "Is having a super IC a liability or an asset?",
+    "slug": "super-ic-liability-or-asset",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "super-ic",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q077",
+    "question": "How do I hire someone who can be a super IC in 18 months?",
+    "slug": "hire-someone-become-super-ic-in-18-months",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q078",
+    "question": "What's the framework for deciding hire vs automate vs super IC?",
+    "slug": "framework-deciding-hire-automate-super-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "pillar",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "educational"
+  },
+  {
+    "id": "q079",
+    "question": "When should I automate vs. hire?",
+    "slug": "when-should-automate-vs-hire",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q080",
+    "question": "How do I calculate the ROI of hiring vs. automating a process?",
+    "slug": "calculate-roi-hiring-vs-automating-process",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q081",
+    "question": "What processes should I automate first?",
+    "slug": "what-processes-should-automate-first",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q082",
+    "question": "Can I really run a startup with just three people and a lot of automation?",
+    "slug": "run-startup-three-people-lot-automation",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "validation"
+  },
+  {
+    "id": "q083",
+    "question": "Should I hire a contractor, an employee, or a super IC?",
+    "slug": "hire-contractor-employee-or-super-ic",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q084",
+    "question": "How do I know when a role has shifted from hire to automate?",
+    "slug": "know-when-role-shifted-hire-to-automate",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "hire-automate-or-super-ic",
+    "questionType": "diagnostic"
+  },
+  {
+    "id": "q085",
+    "question": "What's the best hiring framework for early stage startups?",
+    "slug": "best-hiring-framework-early-stage-startups",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "pillar",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q086",
+    "question": "How do I interview candidates when I've never done it before?",
+    "slug": "interview-candidates-never-done-before",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q087",
+    "question": "What should I look for in early employees that predicts success?",
+    "slug": "look-for-early-employees-predicts-success",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q088",
+    "question": "How do I know if a candidate is worth the risk?",
+    "slug": "know-if-candidate-worth-the-risk",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q089",
+    "question": "What red flags should I look for when hiring early employees?",
+    "slug": "red-flags-hiring-early-employees",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q090",
+    "question": "How long should it take to hire someone at a seed stage startup?",
+    "slug": "how-long-hiring-process-seed-stage",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q091",
+    "question": "Should I use a recruiter or hire myself at seed stage?",
+    "slug": "use-recruiter-or-hire-myself-seed-stage",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q092",
+    "question": "How do I build a strong employer brand with zero brand recognition?",
+    "slug": "build-employer-brand-zero-recognition",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q093",
+    "question": "What equity grants should I offer to seed stage hires?",
+    "slug": "equity-grants-should-offer-seed-stage",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q094",
+    "question": "How do I evaluate a candidate's ability to work in ambiguity?",
+    "slug": "evaluate-candidate-ability-work-ambiguity",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q095",
+    "question": "What questions should I ask candidates that actually predict success?",
+    "slug": "questions-ask-candidates-predict-success",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q096",
+    "question": "How do I negotiate offers for early hires without breaking the bank?",
+    "slug": "negotiate-offers-early-hires-without-breaking-bank",
+    "icp": "1",
+    "buyerIntent": "decision",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q097",
+    "question": "How do I find exceptional talent that doesn't exist on LinkedIn?",
+    "slug": "find-exceptional-talent-not-on-linkedin",
+    "icp": "1",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q098",
+    "question": "How do I retain my first 10 employees for the long term?",
+    "slug": "retain-first-10-employees-long-term",
+    "icp": "1",
+    "buyerIntent": "retention",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q099",
+    "question": "What's the cost of a bad early hire?",
+    "slug": "cost-bad-early-hire",
+    "icp": "1",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q100",
+    "question": "How do I scale recruiting without hiring a recruiter?",
+    "slug": "scale-recruiting-without-hiring-recruiter",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q101",
+    "question": "What's the biggest mistake founders make when scaling recruiting?",
+    "slug": "biggest-mistake-founders-scaling-recruiting",
+    "icp": "2",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q102",
+    "question": "How do I build a recruiting team that maintains company culture?",
+    "slug": "build-recruiting-team-maintains-culture",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q103",
+    "question": "Should I outsource recruiting or keep it in-house?",
+    "slug": "outsource-recruiting-or-keep-in-house",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "comparison",
+    "subpath": "startup-recruiting",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q104",
+    "question": "How do I build a sourcing pipeline at scale?",
+    "slug": "build-sourcing-pipeline-at-scale",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q105",
+    "question": "What metrics should I track for recruiting effectiveness?",
+    "slug": "metrics-track-recruiting-effectiveness",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q106",
+    "question": "How do I reduce time to hire without lowering quality?",
+    "slug": "reduce-time-to-hire-without-lowering-quality",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q107",
+    "question": "What's a realistic recruiting budget for a Series B startup?",
+    "slug": "realistic-recruiting-budget-series-b",
+    "icp": "2",
+    "buyerIntent": "decision",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "educational"
+  },
+  {
+    "id": "q108",
+    "question": "How do I find senior talent that's willing to join an early-stage company?",
+    "slug": "find-senior-talent-willing-join-early-stage",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q109",
+    "question": "What's the right interview process for a scaling startup?",
+    "slug": "right-interview-process-scaling-startup",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q110",
+    "question": "How do I evaluate whether a candidate can grow into a larger role?",
+    "slug": "evaluate-candidate-grow-into-larger-role",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "startup-recruiting",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q111",
+    "question": "What does post-funding org design look like?",
+    "slug": "what-does-post-funding-org-design-look-like",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "pillar",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q112",
+    "question": "How do I plan my first 30 days with a new funding round?",
+    "slug": "plan-first-30-days-new-funding-round",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q113",
+    "question": "What's the right hiring rate after closing funding?",
+    "slug": "right-hiring-rate-after-closing-funding",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q114",
+    "question": "How do I avoid the post-funding hiring mistakes everyone makes?",
+    "slug": "avoid-post-funding-hiring-mistakes",
+    "icp": "cross-icp",
+    "buyerIntent": "problem_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q115",
+    "question": "Should I hire for my current team or the team I'll need in 18 months?",
+    "slug": "hire-for-current-team-or-future-team",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q116",
+    "question": "How do I structure the first management layer?",
+    "slug": "structure-first-management-layer",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q117",
+    "question": "What's the relationship between funding and headcount?",
+    "slug": "relationship-between-funding-and-headcount",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  },
+  {
+    "id": "q118",
+    "question": "How do I avoid growing headcount faster than revenue?",
+    "slug": "avoid-growing-headcount-faster-than-revenue",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "how-to"
+  },
+  {
+    "id": "q119",
+    "question": "What should my org chart look like at Series A vs. Series B?",
+    "slug": "org-chart-look-series-a-vs-series-b",
+    "icp": "2",
+    "buyerIntent": "solution_aware",
+    "pageType": "blog",
+    "subpath": "post-funding-hiring",
+    "questionType": "comparison"
+  },
+  {
+    "id": "q120",
+    "question": "How do I tell when I'm ready to hire my first manager?",
+    "slug": "know-when-ready-hire-first-manager",
+    "icp": "cross-icp",
+    "buyerIntent": "solution_aware",
+    "pageType": "faq",
+    "subpath": "post-funding-hiring",
+    "questionType": "educational"
+  }
+]
