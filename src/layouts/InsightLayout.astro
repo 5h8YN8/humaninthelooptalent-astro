@@ -1,0 +1,215 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  publishDate?: string;
+  author?: string;
+}
+
+const { title, description, ogImage = '/og-default.png', publishDate, author = 'Human in the Loop Talent' } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, 'https://humaninthelooptalent.com');
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | Human in the Loop Talent</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={`https://humaninthelooptalent.com${ogImage}`} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:site_name" content="Human in the Loop Talent" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`https://humaninthelooptalent.com${ogImage}`} />
+
+  {publishDate && <meta property="article:published_time" content={publishDate} />}
+  <meta property="article:author" content={author} />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": {
+      "@type": "Organization",
+      "name": "Human in the Loop Talent",
+      "url": "https://humaninthelooptalent.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Human in the Loop Talent",
+      "url": "https://humaninthelooptalent.com"
+    },
+    "mainEntityOfPage": canonicalUrl.toString(),
+    ...(publishDate ? { "datePublished": publishDate } : {}),
+    "image": `https://humaninthelooptalent.com${ogImage}`
+  })} />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      background: #0A1628;
+      color: #E2E8F0;
+      line-height: 1.8;
+    }
+
+    .nav {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav a {
+      color: #94A3B8;
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+
+    .nav a:hover { color: #3B82F6; }
+
+    .nav .brand {
+      color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2.25rem;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    .meta {
+      color: #94A3B8;
+      font-size: 0.875rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #1E293B;
+    }
+
+    h2 {
+      color: #3B82F6;
+      font-size: 1.35rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: #E2E8F0;
+      font-size: 1.1rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: #CBD5E1;
+      margin-bottom: 1.25rem;
+    }
+
+    a { color: #3B82F6; }
+
+    ul, ol {
+      margin: 0.75rem 0 1.25rem 1.5rem;
+      color: #CBD5E1;
+    }
+
+    li { margin-bottom: 0.5rem; }
+
+    blockquote {
+      border-left: 3px solid #3B82F6;
+      padding: 1rem 1.5rem;
+      margin: 1.5rem 0;
+      background: #0F1D32;
+      border-radius: 0 8px 8px 0;
+    }
+
+    blockquote p { color: #E2E8F0; margin: 0; }
+
+    .cta-box {
+      background: linear-gradient(135deg, #1E3A5F, #0F1D32);
+      border: 1px solid #3B82F6;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .cta-box h3 { color: #fff; margin-top: 0; }
+    .cta-box p { color: #94A3B8; }
+
+    .cta-box a {
+      display: inline-block;
+      background: #3B82F6;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    .cta-box a:hover { background: #2563EB; }
+
+    .footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-top: 1px solid #1E293B;
+      color: #64748B;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.75rem; }
+      .container { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="https://humaninthelooptalent.com" class="brand">Human in the Loop Talent</a>
+    <a href="/insights">Insights</a>
+  </nav>
+
+  <main class="container">
+    <h1>{title}</h1>
+    <div class="meta">
+      {publishDate && <span>{new Date(publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>}
+      {publishDate && <span> · </span>}
+      <span>{author}</span>
+    </div>
+    <slot />
+  </main>
+
+  <footer class="footer">
+    Human in the Loop Talent | AI-Era Hiring Diagnostic | humaninthelooptalent.com
+  </footer>
+</body>
+</html>

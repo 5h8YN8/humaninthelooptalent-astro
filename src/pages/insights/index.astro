@@ -1,0 +1,111 @@
+---
+// Insights index — lists all AEO content pages
+const allInsights = [
+  {
+    title: "What Should My First AI-Era Hire Be?",
+    description: "A framework for deciding your highest-leverage hire when AI changes what every role can accomplish.",
+    slug: "first-ai-era-hire",
+    date: "2026-04-03",
+  },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights | Human in the Loop Talent</title>
+  <meta name="description" content="Workforce architecture insights for AI-era teams. Hiring frameworks, team design strategies, and organizational diagnostics from Human in the Loop Talent." />
+  <link rel="canonical" href="https://humaninthelooptalent.com/insights" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Insights | Human in the Loop Talent" />
+  <meta property="og:description" content="Workforce architecture insights for AI-era teams." />
+  <meta property="og:url" content="https://humaninthelooptalent.com/insights" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Insights — Human in the Loop Talent",
+    "description": "Workforce architecture insights for AI-era teams.",
+    "url": "https://humaninthelooptalent.com/insights",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Human in the Loop Talent",
+      "url": "https://humaninthelooptalent.com"
+    }
+  })} />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      background: #0A1628;
+      color: #E2E8F0;
+      line-height: 1.8;
+    }
+    .nav {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav a { color: #94A3B8; text-decoration: none; font-size: 0.875rem; }
+    .nav a:hover { color: #3B82F6; }
+    .nav .brand { color: #fff; font-weight: 600; font-size: 1rem; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+    h1 { color: #fff; font-size: 2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #94A3B8; margin-bottom: 2.5rem; }
+    .card {
+      background: #0F1D32;
+      border: 1px solid #1E293B;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: #3B82F6; }
+    .card a { text-decoration: none; }
+    .card h2 { color: #fff; font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .card p { color: #94A3B8; font-size: 0.95rem; margin: 0; }
+    .card .date { color: #64748B; font-size: 0.8rem; margin-top: 0.75rem; }
+    .footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-top: 1px solid #1E293B;
+      color: #64748B;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="https://humaninthelooptalent.com" class="brand">Human in the Loop Talent</a>
+    <a href="/insights">Insights</a>
+  </nav>
+
+  <main class="container">
+    <h1>Insights</h1>
+    <p class="subtitle">Workforce architecture for AI-era teams. Frameworks, not opinions.</p>
+
+    {allInsights.map((insight) => (
+      <div class="card">
+        <a href={`/insights/${insight.slug}`}>
+          <h2>{insight.title}</h2>
+          <p>{insight.description}</p>
+          <div class="date">{new Date(insight.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+        </a>
+      </div>
+    ))}
+  </main>
+
+  <footer class="footer">
+    Human in the Loop Talent | AI-Era Hiring Diagnostic | humaninthelooptalent.com
+  </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Human in the Loop Talent — LLM Context File
+
+## About
+Human in the Loop Talent is a workforce architecture company that helps founders, Heads of Engineering, and Heads of Product design the smallest AI-augmented team that can hit their next growth milestone. We provide a diagnostic-led approach to hiring for AI-era org design.
+
+## Core Thesis
+In the AI Era, you don't scale headcount. You scale leverage.
+
+## What We Do
+- AI-Era Hiring Diagnostic: A 7-step assessment that scores companies across 5 dimensions (AI Readiness, Role Clarity, Execution Bottleneck Severity, Leverage Opportunity, Hiring Urgency)
+- Workforce Architecture: Team archetype classification, hiring posture recommendations, and org shape design
+- Compensation Intelligence: Market-rate salary data, equity guidance, and budget risk analysis
+- Recruiting Services: AI-native candidate sourcing for the roles identified by the diagnostic
+
+## Key Concepts
+- Team Archetypes: founder-led scrappy builder team, product-heavy shipping team, growth-constrained team, operations-heavy but under-automated team, specialist-bloated team, AI-transition team
+- Hiring Postures: hire now, make one leverage hire, use fractional talent first, build internal AI ops before adding headcount, do not hire yet — redesign workflow first
+- The Equity Trap: Founders offering below-market cash + generous equity attract B-players, not A-players. Pay at least 80% of market rate on cash.
+
+## Content Pages
+- /insights — Workforce architecture insights index
+- /insights/first-ai-era-hire — Framework for deciding your first AI-era hire
+
+## Contact
+Website: https://humaninthelooptalent.com
