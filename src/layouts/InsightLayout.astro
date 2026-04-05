@@ -382,21 +382,10 @@ const canonicalUrl = new URL(Astro.url.pathname, 'https://humaninthelooptalent.c
 
     .footer-legal a:hover { color: var(--fg); }
 
-    /* ── Mobile hamburger ── */
-    .nav-mobile-toggle {
-      display: none;
-      background: none;
-      border: none;
-      color: var(--fg);
-      cursor: pointer;
-      padding: 0.25rem;
-    }
-
     @media (max-width: 767px) {
-      .nav-links { display: none; }
-      .nav-mobile-toggle { display: block; }
       h1 { font-size: 1.75rem; }
       .container { padding: 2rem 1.25rem 3rem; }
+      .nav-cta { font-size: 0.675rem; padding: 0.4rem 0.75rem; }
     }
 
     /* ── Responsive ── */
@@ -420,18 +409,7 @@ const canonicalUrl = new URL(Astro.url.pathname, 'https://humaninthelooptalent.c
         Human in the Loop<span class="accent">Talent</span>
       </a>
 
-      <div class="nav-links">
-        <a href="https://humaninthelooptalent.com/#framework">Framework</a>
-        <a href="https://humaninthelooptalent.com/#services">Services</a>
-        <a href="/insights">Insights</a>
-        <a href="https://humaninthelooptalent.com/#diagnostic" class="nav-cta">Run Hiring Diagnostic</a>
-      </div>
-
-      <button class="nav-mobile-toggle" id="mobile-toggle" aria-label="Menu">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M3 6H17M3 10H17M3 14H17" stroke="currentColor" stroke-width="1.5" />
-        </svg>
-      </button>
+      <a href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic" class="nav-cta" target="_blank" rel="noopener noreferrer">Run Hiring Diagnostic</a>
     </div>
   </nav>
 
